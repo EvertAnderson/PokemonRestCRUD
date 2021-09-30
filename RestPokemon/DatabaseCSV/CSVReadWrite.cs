@@ -24,6 +24,7 @@ namespace RestPokemon.DatabaseCSV
                 }
             }
         }
+
         public List<Pokemon> GetPokemonList()
         {
             return PokemonList;

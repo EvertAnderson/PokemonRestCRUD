@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Evert\\Canada\\RestPokemon\\RestPokemon\\RestPokemon.csproj": {}
+    "E:\\Cignium\\PokemonRestCRUD\\RestPokemon\\RestPokemon.csproj": {}
   },
   "projects": {
-    "E:\\Evert\\Canada\\RestPokemon\\RestPokemon\\RestPokemon.csproj": {
+    "E:\\Cignium\\PokemonRestCRUD\\RestPokemon\\RestPokemon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Evert\\Canada\\RestPokemon\\RestPokemon\\RestPokemon.csproj",
+        "projectUniqueName": "E:\\Cignium\\PokemonRestCRUD\\RestPokemon\\RestPokemon.csproj",
         "projectName": "RestPokemon",
-        "projectPath": "E:\\Evert\\Canada\\RestPokemon\\RestPokemon\\RestPokemon.csproj",
+        "projectPath": "E:\\Cignium\\PokemonRestCRUD\\RestPokemon\\RestPokemon.csproj",
         "packagesPath": "C:\\Users\\Evert\\.nuget\\packages\\",
-        "outputPath": "E:\\Evert\\Canada\\RestPokemon\\RestPokemon\\obj\\",
+        "outputPath": "E:\\Cignium\\PokemonRestCRUD\\RestPokemon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
