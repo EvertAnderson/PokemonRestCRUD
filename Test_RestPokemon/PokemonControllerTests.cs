@@ -41,6 +41,52 @@ namespace Test_RestPokemon
             //Assert
             Assert.AreEqual(null, actionResult);
         }
+
+        [TestMethod]
+        public void TestGetPokemon()
+        {
+            //Arrange
+            var controller = new MockPokemonData();
+            var pokemon = new Pokemon() { Id = int.MaxValue, Name = "Test Pokemon", Attack = 100 };
+
+            //Act
+            var actionResult = controller.AddPokemon(pokemon);
+
+            //Assert
+            Assert.AreEqual(pokemon, actionResult);
+        }
+
+        [TestMethod]
+        public void TestDeletePokemon()
+        {
+            //Arrange
+            var controller = new MockPokemonData();
+            var pokemon = new Pokemon() { Id = int.MaxValue, Name = "Test Pokemon", Attack = 100 };
+
+            //Act
+            var addResult = controller.AddPokemon(pokemon);
+            controller.DeletePokemon(pokemon);
+            var actionResult = controller.GetPokemon(int.MaxValue);
+
+            //Assert
+            Assert.AreEqual(null, actionResult);
+        }
+
+        [TestMethod]
+        public void TestEditPokemon()
+        {
+            //Arrange
+            var controller = new MockPokemonData();
+            var pokemon = new Pokemon() { Id = int.MaxValue, Name = "Test Pokemon", Attack = 100 };
+
+            //Act
+            controller.AddPokemon(pokemon);
+            pokemon.Name = "New Pokemon";
+            var actionResult = controller.EditPokemon(pokemon);
+
+            //Assert
+            Assert.AreEqual("New Pokemon", actionResult.Name);
+        }
     }
     
 }
