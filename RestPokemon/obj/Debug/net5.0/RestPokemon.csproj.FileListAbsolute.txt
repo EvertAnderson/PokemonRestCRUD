@@ -59,3 +59,6 @@ E:\Cignium\PokemonRestCRUD\RestPokemon\obj\Debug\net5.0\ref\RestPokemon.dll
 E:\Cignium\PokemonRestCRUD\RestPokemon\obj\Debug\net5.0\RestPokemon.pdb
 E:\Cignium\PokemonRestCRUD\RestPokemon\obj\Debug\net5.0\RestPokemon.genruntimeconfig.cache
 E:\Cignium\PokemonRestCRUD\RestPokemon\bin\Debug\net5.0\DatabaseCSV\pokemon.csv
+E:\Cignium\PokemonRestCRUD\RestPokemon\bin\Debug\net5.0\JetBrains.Annotations.dll
+E:\Cignium\PokemonRestCRUD\RestPokemon\bin\Debug\net5.0\X.PagedList.dll
+E:\Cignium\PokemonRestCRUD\RestPokemon\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
